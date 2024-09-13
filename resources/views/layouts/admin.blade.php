@@ -25,12 +25,9 @@
     <div id="app">
 
         <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-2 shadow">
-            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">BoolPress</a>
-            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-            <div class="navbar-nav">
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">YourProjects</a>
+            {{-- <input class="form-control form-control-dark" type="text" placeholder="Search" aria-label="Search"> --}}
+            <div class="navbar-nav ms-auto">
                 <div class="nav-item text-nowrap ms-2">
                     <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
                     document.getElementById('logout-form').submit();">
@@ -41,6 +38,9 @@
                     </form>
                 </div>
             </div>
+            <button class="navbar-toggler ms-5  d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </header>
 
         <div class="container-fluid vh-100">
@@ -63,13 +63,13 @@
                             
                             <li class="nav-item">
                                 <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.projects.create' ? 'bg-secondary' : '' }}" href="{{route('admin.projects.create')}}">
-                                    <i class="fa-solid fa-newspaper"></i> Create project
+                                    <i class="fa-solid fa-plus"></i> Create project
                                 </a>
                             </li>
                             
                             <li class="nav-item">
                                 <a class="nav-link text-white {{ Route::currentRouteName() == 'admin.technologies.index' ? 'bg-secondary' : '' }}" href="{{route('admin.technologies.index')}}">
-                                    <i class="fa-solid fa-newspaper"></i> Technologies
+                                    <i class="fa-solid fa-microchip"></i> Technologies
                                 </a>
                             </li>
                         </ul>
