@@ -18,6 +18,8 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <p class="mt-2">Welcome to the administrator's dashboard! Here, you can easily add new projects, as well as edit or delete existing ones.</p>
                 </div>
             </div>
         </div>
