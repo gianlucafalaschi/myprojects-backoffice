@@ -24,7 +24,7 @@
 <body>
     <div id="app">
 
-        <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-2 shadow">
+        <header class="navbar navbar-dark sticky-top ms-bg-primary flex-md-nowrap p-2 shadow">
             <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">YourProjects</a>
             {{-- <input class="form-control form-control-dark" type="text" placeholder="Search" aria-label="Search"> --}}
             <div class="navbar-nav ms-auto">
@@ -45,7 +45,7 @@
 
         <div class="container-fluid vh-100">
             <div class="row h-100">
-                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark navbar-dark sidebar collapse">
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block ms-bg-primary navbar-dark sidebar collapse">
                     <div class="position-sticky pt-3">
                         <ul class="nav flex-column">
                             

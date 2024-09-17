@@ -1,1 +1,25 @@
-@import '~bootstrap/scss/bootstrap'
+@use '_variable.scss' as *;
+
+@import '~bootstrap/scss/bootstrap';
+
+/* Header */
+
+.ms-bg-primary {
+    background-color: $primary_color;
+}
+
+/*  */
+
+/* Card */
+
+.ms-card-image-container {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+    
+}
