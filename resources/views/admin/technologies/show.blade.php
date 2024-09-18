@@ -9,7 +9,7 @@
     @foreach ($technology->projects as $project)
     <ul>
         <li>
-            <a href="{{ route('admin.projects.show', ['project' => $project->slug]) }}" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" > {{$project->name}} </a>
+            <a href="{{ route('admin.projects.show', ['project' => $project->slug]) }}" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" > {{$project->name}} </a>
         </li>
     </ul>    
     @endforeach

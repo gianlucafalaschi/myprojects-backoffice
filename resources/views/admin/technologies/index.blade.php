@@ -8,7 +8,7 @@
     @foreach ($technologies as $technology)
     <ul>
         <li>
-            <a href="{{route('admin.technologies.show', ['technology'=> $technology->slug]) }}" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">{{$technology->name}}</a>
+            <a href="{{route('admin.technologies.show', ['technology'=> $technology->slug]) }}" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">{{$technology->name}}</a>
         </li>
     </ul> 
     @endforeach

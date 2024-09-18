@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="card">
+    <div class="card ms-card-size">
         <div class="card-header">
             <h1>{{$project->name}}</h1>
         </div>
