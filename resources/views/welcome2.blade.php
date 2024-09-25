@@ -3,9 +3,6 @@
 
 <div class="jumbotron p-5 mb-4 bg-light rounded-3">
     <div class="container py-5">
-        <div class="logo_your_projects">
-            <i class="fa-solid fa-desktop fs-1 text-primary"></i>
-        </div>
         <h1 class="display-5 fw-bold">
             Welcome to YourProjects! 
         </h1>
