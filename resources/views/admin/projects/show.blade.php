@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div class="card ms-card-size">
+    <div class="card ms-card-size shadow">
         <div class="card-header">
-            <h1>{{$project->name}}</h1>
+            <h1 class="text-secondary">{{$project->name}}</h1>
         </div>
         <div class="card-body">
             <div>

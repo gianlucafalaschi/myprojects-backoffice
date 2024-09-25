@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>All Technologies</h1>
+    <h1 class="fs-4 text-secondary my-4">All Technologies</h1>
 
     <p>Choose a technology to see all the projects that utilize it.</p>
 

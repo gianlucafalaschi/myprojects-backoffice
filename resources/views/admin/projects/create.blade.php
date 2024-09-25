@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-<h1>Create a new project</h1>   
+<h1 class="fs-4 text-secondary my-4">Create a new project</h1>   
 
 @if ($errors->any())
     <div class="alert alert-danger">

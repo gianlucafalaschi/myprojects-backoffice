@@ -1,9 +1,9 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>{{ $technology->name}}</h1>
+    <h1 class="fs-4 text-secondary my-4">{{ $technology->name}}</h1>
 
-    <h5 class="mb-3">Projects using this technology:</h5>
+    <p class="mb-3 fs-4 text-secondary">Projects using this technology:</p>
     <p>Select a project to see all the details.</p>
     {{-- mostra tutti i progetti che hanno questa technology / projects e' la funzione nel model Technology --}}
     @foreach ($technology->projects as $project)

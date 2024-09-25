@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-<h1>Edit project: {{ $project->name }}</h1> 
+<h1 class="fs-4 text-secondary my-4">Edit project: {{ $project->name }}</h1> 
  
 @if ($errors->any())
     <div class="alert alert-danger">
@@ -13,7 +13,7 @@
     </div>
 @endif
 
-<h4><strong>Id</strong>: {{ $project->id }}</h4>
+<h4 class="fs-4 text-secondary"><strong>Id</strong>: {{ $project->id }}</h4>
 
 <form action="{{ route('admin.projects.update', ['project' => $project->slug]) }}" method="POST" enctype="multipart/form-data">
     @csrf
