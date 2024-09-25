@@ -18,7 +18,7 @@ use App\Http\Controllers\Admin\TechnologyController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome2');
 })->name('home');
 
 // Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
