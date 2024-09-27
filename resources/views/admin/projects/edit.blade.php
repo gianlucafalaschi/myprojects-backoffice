@@ -36,7 +36,9 @@
     </div>      
     
     @if ($project->cover_image)
-        <img class="img-fluid" src="{{ asset('storage/' . $project->cover_image) }}" alt=" {{ $project->name }}"> 
+        <div class="ms-card-image-container mb-3">
+            <img class="img-fluid" src="{{ asset('storage/' . $project->cover_image) }}" alt=" {{ $project->name }}"> 
+        </div>
     @else
         <small>No image</small>
     @endif
